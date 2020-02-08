@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default {\n  activeLiNK: \"home\"\n};","map":{"version":3,"sources":["E:/nagda/models/redux.state.ini.js"],"names":["activeLiNK"],"mappings":"AAAA,eAAe;AACXA,EAAAA,UAAU,EAAE;AADD,CAAf","sourcesContent":["export default {\r\n    activeLiNK: \"home\"\r\n};"]},"metadata":{},"sourceType":"module"}

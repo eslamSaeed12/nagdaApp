@@ -1,0 +1,174 @@
+$main-clr: #4B4B4B;
+$foshia: #EB095E;
+$warning: #D18C08;
+$darkblue: #1C4A5B;
+$danger: #dc3545;
+@import "mixins";
+@import "components/navbar";
+@import "buttons";
+@import "badges";
+
+
+.w-30 {
+  max-width: 30%;
+}
+
+.w-40 {
+  max-width: 40%;
+}
+
+.no-background {
+  background-color: unset;
+}
+
+.alert-danger {
+  background-color: $foshia;
+  color: #ffff;
+  border: 0;
+}
+
+.rounded-section {
+  border-radius: 60px;
+}
+
+
+.rounded-card {
+  border-radius: 20px;
+}
+
+@media(max-width: 992px) {
+  .toColumnPlease {
+    display: block;
+  }
+
+}
+
+body {
+  //@include CairoRegular;
+  direction: rtl;
+  color: $main-clr;
+  background-color: #ffff;
+  @include helvaticaRegular;
+}
+
+
+.btn {
+  border-radius: 6px;
+  box-shadow: 0px 3px 6px rgba(15, 15, 15, 0.60);
+  border: 2px solid;
+  transition: all 0.1s ease !important;
+
+}
+
+.btn-borderless {
+  border: 0 solid;
+}
+
+.force-d-none {
+  display: none !important;
+}
+
+@media(max-width: 567px) {
+  .rounded-section {
+    border-radius: 0;
+  }
+}
+
+
+footer {
+  .nav-link {
+    color: #fff;
+
+    &:hover {
+      color: $warning;
+    }
+  }
+}
+
+
+.activeDot {
+  color: #89847E !important;
+  cursor: pointer;
+  transition: opacity 0.1s ease;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.active-navigator {
+  color: $warning !important;
+}
+
+
+.filtered-img {
+  height: 75px;
+  width: 75px;
+  opacity: 0.9;
+}
+
+.fancy-card-hvr {
+  transition: transform 0.3s ease-out;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.card-team-item {
+  .nav-link {
+    color: $main-clr !important;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $foshia !important;
+    }
+  }
+}
+
+.transtional-slider-down {
+  max-height: 0;
+  transition: max-height 0.7s ease;
+}
+
+
+a {
+  color: unset;
+
+  &:hover {
+    color: unset;
+    text-decoration: none;
+  }
+}
+
+
+.form-control {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  border-radius: 6px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8 !important;
+  font-family: Segoe UI;
+
+  &:focus {
+    border-color: rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.contact-form {
+  @media(max-width: 992px) {
+    border-left: 0 !important;
+  }
+}
+
+.simple-hover {
+  transition: opacity 0.1s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.default-link{
+ color:#0f6674;
+}

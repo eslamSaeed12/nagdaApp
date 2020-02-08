@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default {\n  activeLink: \"home\"\n};","map":{"version":3,"sources":["E:/nagda/models/redux.state.ini.js"],"names":["activeLink"],"mappings":"AAAA,eAAe;AACXA,EAAAA,UAAU,EAAE;AADD,CAAf","sourcesContent":["export default {\r\n    activeLink: \"home\"\r\n};"]},"metadata":{},"sourceType":"module"}

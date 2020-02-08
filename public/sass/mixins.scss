@@ -1,0 +1,21 @@
+
+
+@font-face {
+
+  font-family: helvatica-bold;
+  src: url('../fonts/HelveticaNeueLT B.otf');
+}
+
+@font-face {
+  font-family: helvatica-regular;
+  src: url('../fonts/HelveticaNeueLT.otf');
+
+}
+
+@mixin helvaticaRegular {
+  font-family: helvatica-regular;
+}
+
+@mixin helvaticaBold {
+  font-family: helvatica-bold;
+}
