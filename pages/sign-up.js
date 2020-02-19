@@ -2,30 +2,8 @@ import {Component, useEffect, useState} from 'react'
 import App from '../components/app';
 import {activePage} from "../actions/actions";
 import {connect} from 'react-redux'
-import signUpSvg from '../public/media/undraw_fill_forms_yltj.svg';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faCheckCircle, faTimesCircle} from '@fortawesome/free-solid-svg-icons'
 import {faFacebook, faGoogle} from '@fortawesome/free-brands-svg-icons'
-
-const Header = (props) => {
-    return (
-        <section className="py-4">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-6 text-lg-right text-center">
-                        <h2 className="display-2">تسجيل جديد</h2>
-                        <p className={"lead"}>
-                            للاستفاده من تطبيقاتنا علي منصتي الويب والاندرويد يجب الحصول علي حساب
-                        </p>
-                    </div>
-                    <div className="col-lg-6 text-lg-left text-center mt-lg-0 mt-3">
-                        <img src={signUpSvg} className={"w-75"}/>
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
-};
 
 
 const SignUpForm = (props) => {
@@ -129,7 +107,6 @@ class SignUp extends Component {
     render() {
         return (
             <App>
-                <Header/>
                 <SignUpForm/>
             </App>
         )

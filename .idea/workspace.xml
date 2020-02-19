@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04e1405f-4910-4d19-a24e-60b226ada793" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/actions/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/AboutApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/DownloadApp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/aboutUsSection1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/fab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/faqHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/faqQuestion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/faqQuestions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/headerSection2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/simpleNavigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/usage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/redux.state.ini.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/contact-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/faq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/sign-in.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/sign-up.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/who-we-are.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sass/badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sass/buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sass/components/navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sass/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,53 +16,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/sass/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/sign-in.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/sign-up.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/navigation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -188,27 +115,6 @@
               <item name="nagda" type="b2602c69:ProjectViewProjectNode" />
               <item name="nagda" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nagda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nagda" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nagda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nagda" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nagda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nagda" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nagda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nagda" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -218,6 +124,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -252,16 +159,15 @@
       <workItem from="1580554326623" duration="34699000" />
       <workItem from="1580641595994" duration="38131000" />
       <workItem from="1580762255502" duration="17393000" />
-      <workItem from="1581119597187" duration="8008000" />
+      <workItem from="1581119597187" duration="9154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128784000" />
+    <option name="totallyTimeSpent" value="129930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.17019667" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.25718608" />
@@ -278,7 +184,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5695581" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -475,16 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/who-we-are.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -501,16 +397,6 @@
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="52" />
           <folding>
             <element signature="e#0#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/aboutUsSection1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="37" column="103" selection-start-line="37" selection-start-column="103" selection-end-line="37" selection-end-column="103" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -593,10 +479,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/pages/sign-up.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -610,12 +499,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/sign-up.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state>
+          <caret selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/who-we-are.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/aboutUsSection1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>

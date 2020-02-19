@@ -443,7 +443,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _public_sass_main_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../public/sass/main.scss */ "./public/sass/main.scss");
 /* harmony import */ var _public_sass_main_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_public_sass_main_scss__WEBPACK_IMPORTED_MODULE_9__);
-var _jsxFileName = "E:\\nagda\\pages\\_app.js";
+var _jsxFileName = "E:\\nagdaWeb\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
