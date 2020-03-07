@@ -1,0 +1,141 @@
+body {
+    font-family: 'Cairo';
+    overflow: hidden;
+}
+
+.nav-widget {
+    display: flex;
+    background-color: #4B4B4B;
+}
+
+.nav-widget i {
+    align-self: center;
+    font-size: 2.5rem;
+    color: #f8f8f8;
+}
+
+.widget {
+    background-color: #4B4B4B;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 5555;
+    transition: opacity 0.2s ease;
+}
+
+.widget:hover {
+    opacity: 0.5;
+}
+
+.find-my-location {
+    left: 1em;
+    top: 30%;
+}
+
+.find-police-station {
+    left: 1em;
+    top: 45%;
+}
+
+
+.police-stations-list-widget {
+    left: 1em;
+    top: 60%;
+}
+
+.widget i {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #f8f8f8;
+}
+
+.back-to-home {
+    transition: opacity 0.15s ease;
+
+}
+
+.back-to-home:active {
+    opacity: 0.7;
+}
+
+.pop-up {
+    text-align: center;
+    left: 45%;
+    top: 50%;
+    position: absolute;
+    z-index: 555;
+    background: #fff;
+}
+
+#cancel-popup-widget-btn {
+    cursor: pointer;
+}
+
+
+.error-header {
+    background-color: tomato;
+}
+
+.error-widget .error-icon {
+    color: #ffff;
+    font-size: 3em;
+}
+
+.white-color {
+    color: #ffff;
+}
+
+.close-error-widget-btn {
+    background-color: tomato;
+    color: #f8f8f8;
+}
+
+
+.cairo {
+    font-family: 'cairo' !important;
+}
+
+.police-point-list-item {
+    list-style: none;
+    transition: opacity 0.1s ease;
+}
+
+.police-point-list-item:hover {
+    opacity: 0.5;
+}
+
+.route-event-popup {
+    width: fit-content;
+    z-index: 5555;
+    right: 5vw;
+    bottom: 5vh;
+}
+
+.alert-success {
+    background-color: #2ecc71;
+    color: #f8f8f8;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+#route-info-widget {
+    z-index: 7777;
+    right: 20vw;
+    bottom: 5vh;
+    background-color: #f8f8f8;
+    transition: opacity 0.15s ease-in;
+}
+
+
+#close-route-info {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+#close-route-info:hover {
+    opacity: 1;
+}

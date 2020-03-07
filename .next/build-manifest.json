@@ -19,11 +19,7 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/sign-in": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/sign-up": [
+    "/home": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

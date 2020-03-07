@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nagdaa</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cairo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/animate.css" />
+    <link rel="stylesheet" href="/css/static-page.css" />
+  </head>
+  <body>
+    <div class="nav-widget shadow-lg py-3">
+      <div class="container-fluid d-flex flex-row">
+        <div class="col-6">
+          <a href="/home" title="عودة للصفحه الرئيسية" class="back-to-home">
+            <i class="material-icons">
+              keyboard_backspace
+            </i>
+          </a>
+        </div>
+        <div class="col-6">
+          <h5 class="text-right mt-1 font-weight-bold" style="color:#f8f8f8">
+            تطبيق الويب
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="find-my-location widget py-3 px-4 rounded shadow-lg"
+      title="حدد موقعك الحالي"
+    >
+      <i class="material-icons" id="find-me">
+        my_location
+      </i>
+    </div>
+
+    <div
+      class="find-police-station widget py-3 px-4 rounded shadow-lg"
+      title="حدد اقرب نقطه شرطة"
+    >
+      <i class="material-icons" id="find-police-station-btn">
+        policy
+      </i>
+    </div>
+
+    <div
+      class="police-stations-list-widget widget py-3 px-4 rounded shadow-lg"
+      title="قائمة النقاط"
+    >
+      <i class="material-icons" data-toggle="modal" data-target="#exampleModal">
+        menu
+      </i>
+    </div>
+
+    <div
+      id="error-widget"
+      class="error error-widget px-0 shadow-lg rounded col-lg-4 col-md-5 col-6 mx-auto  mt-5 d-none"
+    >
+      <div class="container px-0">
+        <div class="error-header text-center py-3 px-2">
+          <h2 class="mb-2 white-color h1">خطأ</h2>
+          <i class="material-icons error-icon">error</i>
+          <p class="lead white-color">
+            خطأ رقم
+            <span id="error-code-placeholder"></span>
+          </p>
+        </div>
+        <div class="error-body py-3 d-flex flex-column align-items-center">
+          <p class="lead text-center  px-3" id="error-msg-placeholder"></p>
+          <a href="" class="" id="link-solution">شرح حل المشكله من هنا</a>
+          <br />
+          <button
+            class="btn close-error-widget-btn"
+            id="close-error-widget-btn"
+          >
+            اغلاق
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              قائمة بنقاط الشرطة
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul
+              class="list-group list-group-flush"
+              id="police-points-list-dom-reference"
+            ></ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              اغلاق
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
+
+    <!-- route status widget-->
+    <div
+      class="alert mx-auto my-0 rounded shadow-log route-event-popup position-absolute px-5"
+    >
+      <p class="font-size-small text-center" id="route-status-placeholder"></p>
+    </div>
+
+    <div
+      class="shadow-lg rounded col-lg-2 col-md-3 col-4 mx-auto position-absolute py-2 d-none"
+      id="route-info-widget"
+    >
+      <h6 class="text-right" id="close-route-info">
+        <i class="material-icons">close</i>
+      </h6>
+
+      <ul class="list-group" id="route-info-list">
+        <li class="list-group-item d-flex">
+          <i class="material-icons mr-2">timer</i><span id="duration"></span>
+        </li>
+        <li class="list-group-item d-flex">
+          <i class="material-icons mr-2">directions</i
+          ><span id="distance"></span>
+        </li>
+      </ul>
+    </div>
+    <div id="map" style="width: 100vw; height: 100vh;"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js"></script>
+    <script type="module" src="./js/container.js"></script>
+  </body>
+</html>
